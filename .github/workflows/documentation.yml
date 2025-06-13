@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Greetings
-      uses: stvanleo/hello-world-action-by-stvan@v1.0
+      uses: StvanLeo/hello-world-javascript-action@v1.0
       with:
         who-to-greet: 'Esteban'
         
