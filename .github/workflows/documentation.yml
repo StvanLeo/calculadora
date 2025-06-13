@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Greetings
+      uses: stvanleo/hello-world-action-by-stvan@v1.0
+      with:
+        who-to-greet: 'Esteban'
+        
     - name: local copy of the repository
       uses: actions/checkout@v4.2.2
 
